@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasil - Página do País</title>
+    <meta name="description" content="Informações sobre o Brasil">
+    <meta name="author" content="Karina Ventura">
+    
+    <link rel="stylesheet" href="estilos/local.css">
+    <script src="scripts/local.js" defer></script>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Brasil</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+
+            <picture>
+
+                <source 
+                    media="(max-width: 600px)" 
+                    srcset="imagens/brasil-small.webp">
+
+
+                <img 
+                    src="imagens/brasil.jpg" alt="Foto do Cristo Redentor no Brasil">
+
+
+            </picture>
+
+        </section>
+
+        <section class="data">
+            <h2>Dados</h2>
+
+            <div class="information">
+
+                <p>
+                    <span>Área:</span> 8,515,767 km²
+                </p>
+
+                <p>
+                    <span>População:</span> 213 milhões de habitantes
+                </p>
+
+                <p>
+                    <span>Capital:</span> Brasília
+                </p>
+
+                <p>
+                    <span>Idioma:</span> Português
+                </p>
+
+                <p>
+                    <span>Moeda:</span> Real
+                </p>
+
+                <p>
+                    <span>Fuso Horário:</span> UTC-3 (horário de Brasília)
+                </p>
+
+                <p>
+                    <span>Código de Discagem:</span> +55
+                </p>
+
+                <p>
+                    <span>Domínio de Internet:</span> .br
+                </p>
+
+
+            </div>
+
+
+        </section>
+
+        <section class="weather">
+
+
+            <h2>Clima</h2>
+
+
+            <div class="information">
+
+                <p>
+                    <span>Temperatura:</span> 28°C
+                </p>
+
+                <p>
+                    <span>Condições Climáticas:</span> Ensolarado
+                </p>
+
+                <p>
+                    <span>Vento:</span> 10 km/h
+                </p>
+
+                <p>
+                    <span>Sensação térmica:</span>
+                    <span id="windchill"></span>
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>
+                &copy;
+                <span id="anoAtual"></span>
+                Karina Ventura | Brasil
+            </p>
+
+            <p id="ultimaModificacao"></p>
+
+
+    </footer>
+
+</body>
+
+
+</html>

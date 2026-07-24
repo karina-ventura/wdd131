@@ -80,7 +80,7 @@ img {
     height: 250px;
     object-fit: cover;
     display: block;
-    
+
 }
 
 footer {
@@ -89,11 +89,6 @@ footer {
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
-}
-
-
-.galeria{
-    gap:24px;
 }
 
 .galeria section {
@@ -106,9 +101,8 @@ footer {
 .galeria h3{
     font-size: 2rem;
     margin-bottom: .8rem;
+
 }
-
-
 
 .galeria p{
     margin:3px 0;

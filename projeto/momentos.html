@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Adicione e organize momentos especiais no seu álbum digital Memora.">
+    <meta name="author" content="Karina Ventura">
+
+    <title>Memora | Momentos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../estilos/projeto.css">
+
+    <script src="../scripts/projeto.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+
+            <a class="logo" href="index.html">Memora</a>
+
+            <button class="menu-button" type="button" aria-label="Abrir menu">
+                ☰
+            </button>
+
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="colecoes.html">Coleções</a>
+                <a href="momentos.html">Momentos</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+
+        <section class="page-intro">
+            <p class="eyebrow">SEU ÁLBUM</p>
+            <h1>Momentos</h1>
+            <p>
+                Registre novos momentos e acompanhe sua história.
+            </p>
+        </section>
+
+
+        <section>
+
+            <h2>Adicionar um momento</h2>
+
+            <form id="moment-form">
+
+                <label for="moment-title">
+                    Título do momento
+                </label>
+
+                <input
+                    type="text"
+                    id="moment-title"
+                    name="moment-title"
+                    required
+                >
+
+
+                <label for="moment-category">
+                    Categoria
+                </label>
+
+                <select
+                    id="moment-category"
+                    name="moment-category"
+                    required
+                >
+                    <option value="" selected disabled>
+                        Selecione uma categoria...
+                    </option>
+
+                    <option value="família">Família</option>
+                    <option value="viagens">Viagens</option>
+                    <option value="aniversários">Aniversários</option>
+                    <option value="conquistas">Conquistas</option>
+                </select>
+
+
+                <label for="moment-date">
+                    Data
+                </label>
+
+                <input
+                    type="date"
+                    id="moment-date"
+                    name="moment-date"
+                    required
+                >
+
+                <label for="moment-image">
+                    Foto
+                </label>
+
+                <input
+                    type="url"
+                    id="moment-image"
+                    name="moment-image"
+                    placeholder="Cole o endereço da imagem"
+                >
+
+                <label for="moment-description">
+                    Descrição
+                </label>
+
+                <textarea
+                    id="moment-description"
+                    name="moment-description"
+                    rows="5"
+                    required
+                ></textarea>
+
+
+                <button class="button" type="submit">
+                    Guardar momento
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <section>
+
+            <div class="section-heading">
+                <p class="eyebrow">SUA HISTÓRIA</p>
+                <h2>Linha do tempo</h2>
+            </div>
+
+            <div id="timeline">
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-content">
+
+            <a class="logo" href="index.html">Memora</a>
+
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="colecoes.html">Coleções</a>
+                <a href="momentos.html">Momentos</a>
+                <a href="referencias.html">Referências</a>
+            </nav>
+
+        </div>
+
+        <p class="copyright">
+            &copy; 2026 Memora | Karina Ventura
+        </p>
+
+    </footer>
+
+</body>
+</html>
